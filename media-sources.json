@@ -1,0 +1,76 @@
+[
+  {
+    "name": "real-rtc",
+    "source": "微信视频2026-10-22_180134_767.mp4",
+    "excerpt_seconds": null,
+    "audio": "Easy Lemon — Kevin MacLeod（CC BY 4.0）；节选、响度调整、淡入淡出",
+    "music_master": "assets/music/licensed/Easy Lemon.mp3",
+    "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+    "music_license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "name": "real-arm",
+    "source": "微信视频2026-10-22_180141_575.mp4",
+    "excerpt_seconds": null,
+    "audio": "Inspired — Kevin MacLeod（CC BY 4.0）；节选、响度调整、淡入淡出",
+    "model": "pi0.5",
+    "finetuning": "LoRA",
+    "epochs": 20,
+    "description": "OpenArmX 真机长程任务执行",
+    "training_info_source": "用户于 2026-10-22 确认",
+    "music_master": "assets/music/licensed/Inspired.mp3",
+    "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600022",
+    "music_license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "name": "office-tour",
+    "source": "office_sim/reports/office_tour/office_tour.mp4",
+    "excerpt_seconds": null,
+    "audio": "Dream Culture — Kevin MacLeod（CC BY 4.0）；节选、响度调整、淡入淡出",
+    "music_master": "assets/music/licensed/Dream Culture.mp3",
+    "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300046",
+    "music_license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "name": "pi05",
+    "source": "office_sim/reports/my_pi05_127s/episode_000_observer.mp4",
+    "excerpt_seconds": 20.8,
+    "audio": "Montauk Point — Kevin MacLeod（CC BY 4.0）；与 SmolVLA 仿真演示相同曲目，节选、响度调整、淡入淡出",
+    "music_master": "assets/music/licensed/Montauk Point.mp3",
+    "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400013",
+    "music_license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "name": "smolvla",
+    "source": "office_sim/reports/smolvla_observer_025/episode_000_observer.mp4",
+    "excerpt_seconds": null,
+    "audio": "Montauk Point — Kevin MacLeod（CC BY 4.0）；节选、响度调整、淡入淡出",
+    "music_master": "assets/music/licensed/Montauk Point.mp3",
+    "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400013",
+    "music_license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "name": "vr-data",
+    "source": "office_sim/datasets/lerobot/banana_vr_002/videos/observation.images.cam_head/chunk-000/file-001.mp4",
+    "excerpt_seconds": 30,
+    "audio": "Life of Riley — Kevin MacLeod（CC BY 4.0）；节选、响度调整、淡入淡出",
+    "music_master": "assets/music/licensed/Life of Riley.mp3",
+    "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400054",
+    "music_license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "name": "so101-act-success",
+    "source": "so101-lab/outputs/reproduction/homepage_act_selection_20261022/episodes/videos/observation.images.top/chunk-000/file-000.mp4",
+    "excerpt_seconds": null,
+    "audio": "Carefree — Kevin MacLeod（CC BY 4.0）；节选、响度调整、淡入淡出",
+    "start_frame": 0,
+    "frame_count": 250,
+    "fps": 30,
+    "episode_id": 0,
+    "success": true,
+    "registry": "so101-lab/outputs/reproduction/homepage_act_selection_20261022/registry.json",
+    "music_master": "assets/music/licensed/Carefree.mp3",
+    "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+    "music_license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+]
