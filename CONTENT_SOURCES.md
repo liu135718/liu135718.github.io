@@ -20,7 +20,7 @@
 
 虚实对齐图仅在顶部标注三列：真实采集 RGB、Isaac Sim 仿真画面和 50% 叠加对齐结果；图中不再显示相机英文名与中文视角标签。
 
-主页的“Isaac Sim 房间全景”使用 `office_reconstruction/previews/Final_Overview.png` 的最终高分辨率渲染，网页副本为 1600×1400 JPEG，保留房间、双臂工作台、桌面物体和仿真道具的完整布局。
+主页的“Isaac Sim 房间全景（4K）”现使用 `assets/images/isaacsim-room-wide.jpg`。2026-10-23 重新启动 Isaac Sim，通过 `OfficeEnv(pose="tabletop")` 加载采集使用的 `office_sim/scenes/office_task.usda`，在房间内设置广角视角并直接保存 RTX 相机图像，分辨率 3840×2160。源图为 `office_sim/reports/homepage_room_actual_20261023/room_front.png`，拍摄参数见同目录 `capture.json`。这是当前场景重新运行的画面，不是历史采集过程中的某一帧，也不是录像截帧。此前 `reconstruction.jpg` 来自 Blender 的 `Final_Overview.png`，曾被误标为 Isaac Sim 全景，现已撤下该链接。
 
 ## 校徽
 
