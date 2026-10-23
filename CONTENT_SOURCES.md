@@ -70,3 +70,6 @@
 
 
 主页 π0.5 演示改用 `office_sim/reports/my_pi05_127s/episode_000_observer.mp4` 的完整约 20.8 秒观察视角片段，保留原始画面并加配乐；与 SmolVLA 仿真视频均使用 Montauk Point。该次 rollout 在键盘中断时保存，片段按其呈现作演示，不标注为成功结果。
+
+
+对照图标注简化：基于 `office_sim/reports/openarmx_n_replay_verified/sample_000002/comparison.jpg` 重建，仅第 1–3 格显示列标题，仅第 1、4、7 格显示相机英文名与中文视角；删除各格中英副标题和底部重复说明。
