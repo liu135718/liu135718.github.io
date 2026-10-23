@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "video": "H.264 CRF 30, maxrate 280k, bufsize 280k (long demo); other clips CRF 29, maxrate 360k; GOP <= 60 frames",
+    "audio": "AAC stereo 64k",
+    "container": "MP4 faststart",
+    "resolution_and_fps": "unchanged"
+  },
+  "files": [
+    {
+      "name": "real-arm",
+      "before_bytes": 20621389,
+      "after_bytes": 5277081
+    },
+    {
+      "name": "real-rtc",
+      "before_bytes": 5682297,
+      "after_bytes": 1772483
+    },
+    {
+      "name": "office-tour",
+      "before_bytes": 4318421,
+      "after_bytes": 2067668
+    },
+    {
+      "name": "vr-data",
+      "before_bytes": 3337245,
+      "after_bytes": 1466520
+    },
+    {
+      "name": "smolvla",
+      "before_bytes": 1354178,
+      "after_bytes": 972292
+    },
+    {
+      "name": "pi05",
+      "before_bytes": 1478060,
+      "after_bytes": 950766
+    },
+    {
+      "name": "so101-act-success",
+      "before_bytes": 400906,
+      "after_bytes": 183359
+    }
+  ]
+}
