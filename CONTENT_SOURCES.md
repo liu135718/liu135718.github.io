@@ -18,7 +18,7 @@
 | 模型与 RL 源码学习 | my-help/*.md、sb3-learning-lab/阶段*学习详解.md | 学习与实现分析，不等同于提出算法 |
 | 半自动抓取 | semi_auto_match_26/scripts/grasp.py、teleop.py | 依据已有代码描述练习内容，未补造实测结果 |
 
-虚实对齐图已在页面资源中加入高对比标注：三行依次为 `cam_left` 左腕相机、`cam_head` 机身相机、`cam_right` 右腕相机；三列依次为真实采集 RGB、Isaac Sim 仿真画面和 50% 叠加对齐结果。原始对照内容保持不变，只增加可读性标识。
+虚实对齐图仅在顶部标注三列：真实采集 RGB、Isaac Sim 仿真画面和 50% 叠加对齐结果；图中不再显示相机英文名与中文视角标签。
 
 主页的“Isaac Sim 房间全景”使用 `office_reconstruction/previews/Final_Overview.png` 的最终高分辨率渲染，网页副本为 1600×1400 JPEG，保留房间、双臂工作台、桌面物体和仿真道具的完整布局。
 
@@ -72,4 +72,4 @@
 主页 π0.5 演示改用 `office_sim/reports/my_pi05_127s/episode_000_observer.mp4` 的完整约 20.8 秒观察视角片段，保留原始画面并加配乐；与 SmolVLA 仿真视频均使用 Montauk Point。该次 rollout 在键盘中断时保存，片段按其呈现作演示，不标注为成功结果。
 
 
-对照图标注简化：基于 `office_sim/reports/openarmx_n_replay_verified/sample_000002/comparison.jpg` 重建，仅第 1–3 格显示列标题，仅第 1、4、7 格显示相机英文名与中文视角；删除各格中英副标题和底部重复说明。
+对照图标注简化：基于 `office_sim/reports/openarmx_n_replay_verified/sample_000002/comparison.jpg` 重建，仅第 1–3 格显示列标题；已删除所有相机英文名与中文视角标签、各格中英副标题和底部重复说明。
