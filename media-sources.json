@@ -72,5 +72,49 @@
     "music_master": "assets/music/licensed/Carefree.mp3",
     "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
     "music_license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "name": "pi05-real-sim50",
+    "source": "1eebe273096454571df314e5fdc6e738.mp4",
+    "excerpt_seconds": null,
+    "audio": "Carefree — Kevin MacLeod（CC BY 4.0）；两段对比同曲同起点，完全替换原音轨；节选、响度调整、淡入淡出",
+    "model": "pi0.5",
+    "simulation_episodes": 50,
+    "real_episodes": 0,
+    "deployment": "OpenArmX 真机",
+    "duration_seconds": 27.2,
+    "training_info_source": "用户于 2026-11-12 确认：27 秒视频仅 50 条仿真示范；36 秒视频为 50 条仿真 + 5 条真实示范",
+    "music_master": "assets/music/licensed/Carefree.mp3",
+    "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+    "music_license": "https://creativecommons.org/licenses/by/4.0/",
+    "music_start_seconds": 8,
+    "visual_annotation": {
+      "emoji": "😢",
+      "position": "top-right",
+      "interpretation": "效果较差",
+      "source": "用户于 2026-11-12 确认左侧效果不好、右侧效果较好；该标记表示这两段录像的定性评价"
+    }
+  },
+  {
+    "name": "pi05-real-sim50-real5",
+    "source": "ee7b631bd9d1b24fb93f607dde0e17d7.mp4",
+    "excerpt_seconds": null,
+    "audio": "Carefree — Kevin MacLeod（CC BY 4.0）；两段对比同曲同起点，完全替换原音轨；节选、响度调整、淡入淡出",
+    "model": "pi0.5",
+    "simulation_episodes": 50,
+    "real_episodes": 5,
+    "deployment": "OpenArmX 真机",
+    "duration_seconds": 35.834,
+    "training_info_source": "用户于 2026-11-12 确认：27 秒视频仅 50 条仿真示范；36 秒视频为 50 条仿真 + 5 条真实示范",
+    "music_master": "assets/music/licensed/Carefree.mp3",
+    "music_source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+    "music_license": "https://creativecommons.org/licenses/by/4.0/",
+    "music_start_seconds": 8,
+    "visual_annotation": {
+      "emoji": "😊",
+      "position": "top-right",
+      "interpretation": "效果较好",
+      "source": "用户于 2026-11-12 确认左侧效果不好、右侧效果较好；该标记表示这两段录像的定性评价"
+    }
   }
 ]

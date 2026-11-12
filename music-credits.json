@@ -97,5 +97,35 @@
     "isrc": "USUAN1400037",
     "modifications": "节选，响度调整，淡入淡出；替换原配乐",
     "sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311"
+  },
+  {
+    "video": "pi05-real-sim50",
+    "title": "Carefree",
+    "artist": "Kevin MacLeod",
+    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+    "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "music_file": "assets/music/licensed/Carefree.mp3",
+    "start_seconds": 8,
+    "isrc": "USUAN1400037",
+    "modifications": "与另一段 π0.5 真机对比使用相同曲目与起点；完全替换原现场音轨；节选、响度调整、淡入 0.8 秒、淡出 1.5 秒",
+    "sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+    "same_track_as": "so101-act-success"
+  },
+  {
+    "video": "pi05-real-sim50-real5",
+    "title": "Carefree",
+    "artist": "Kevin MacLeod",
+    "source_url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+    "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "music_file": "assets/music/licensed/Carefree.mp3",
+    "start_seconds": 8,
+    "isrc": "USUAN1400037",
+    "modifications": "与另一段 π0.5 真机对比使用相同曲目与起点；完全替换原现场音轨；节选、响度调整、淡入 0.8 秒、淡出 1.5 秒",
+    "sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+    "same_track_as": "pi05-real-sim50"
   }
 ]

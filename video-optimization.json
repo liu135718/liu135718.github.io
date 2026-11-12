@@ -40,6 +40,50 @@
       "name": "so101-act-success",
       "before_bytes": 400906,
       "after_bytes": 183359
+    },
+    {
+      "name": "pi05-real-sim50",
+      "source": "1eebe273096454571df314e5fdc6e738.mp4",
+      "before_bytes": 2236624,
+      "after_bytes": 4897940,
+      "video": "H.264 CRF 23, yuv420p, GOP <= 60 frames; top-right emoji overlay",
+      "audio": "Carefree excerpt, normalized to -23 LUFS before fades; AAC stereo 64k, 48 kHz; fade in 0.8s / out 1.5s; original audio removed",
+      "container": "MP4 faststart",
+      "resolution_and_fps": "unchanged: 720x1280, 30 fps",
+      "video_bitstream_sha256": "22c513174db1ed54ceba90efc6dafc48a883e9facae52e6e6a5788cb2b06e9d7",
+      "audio_bitstream_sha256": "55ba0f94537dc9ea6302bc04336ed1892a10eb749714ceb25612c30d3b81165c",
+      "overlay": {
+        "emoji": "😢",
+        "overlay": "assets/overlays/pi05-real-sim50-emotion.png",
+        "position": "top-right",
+        "margin_pixels": 20,
+        "overlay_size_pixels": [
+          136,
+          136
+        ]
+      }
+    },
+    {
+      "name": "pi05-real-sim50-real5",
+      "source": "ee7b631bd9d1b24fb93f607dde0e17d7.mp4",
+      "before_bytes": 2763873,
+      "after_bytes": 5611799,
+      "video": "H.264 CRF 23, yuv420p, GOP <= 60 frames; top-right emoji overlay",
+      "audio": "Carefree excerpt, normalized to -23 LUFS before fades; AAC stereo 64k, 48 kHz; fade in 0.8s / out 1.5s; original audio removed",
+      "container": "MP4 faststart",
+      "resolution_and_fps": "unchanged: 720x1280, 30 fps",
+      "video_bitstream_sha256": "f73f7df195397e74688f8a8eed12d14778455345ea9f387065503bcfd0e4bfb9",
+      "audio_bitstream_sha256": "f790b4637d34c8062a0d52690e51d04d9e01635ef98fd4bc24843f43951f0d37",
+      "overlay": {
+        "emoji": "😊",
+        "overlay": "assets/overlays/pi05-real-sim50-real5-emotion.png",
+        "position": "top-right",
+        "margin_pixels": 20,
+        "overlay_size_pixels": [
+          136,
+          136
+        ]
+      }
     }
   ]
 }

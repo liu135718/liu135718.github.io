@@ -17,3 +17,25 @@
 /* Separate music credits keep project cards focused on the demos. */
 footer div{flex-wrap:wrap;row-gap:10px}
 .credits-page{max-width:850px;padding-block:55px}.credits-intro{margin:20px 0 32px;color:var(--text)}.credits-list{list-style:none;padding:0;margin:0}.credits-list li{padding:24px 0;border-top:1px solid var(--line)}.credits-list h2{font-size:22px;margin-bottom:8px}.credits-list p{color:var(--text);overflow-wrap:anywhere}.credits-list .kicker{color:var(--blue)}.credits-list .credit-note{font-size:12px;color:var(--muted);margin-top:8px}
+
+/* Pair the portrait videos on the left with one shared description. */
+.project-route{grid-template-columns:repeat(5,minmax(0,1fr))}
+.sim-real-comparison{margin-top:30px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
+.comparison-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:16px;background:#101820}
+.comparison-run{min-width:0;overflow:hidden}
+.comparison-label{min-height:56px;padding:2px 6px 10px}
+.comparison-label .kicker{font-size:9px;letter-spacing:.04em;margin-bottom:4px}
+.comparison-label h4{font-size:12px;font-weight:550;line-height:1.6;margin:0}
+.comparison-media video{height:320px;object-fit:contain}
+.comparison-caption{padding:8px 0 0;color:var(--muted);font-size:10px;text-align:center}
+.sim-real-comparison .comparison-copy{padding:30px}
+@media(max-width:680px){
+ .project-route{grid-template-columns:1fr 1fr}
+ .project-route li:last-child{grid-column:1/-1;border-left:0}
+ .sim-real-comparison{grid-template-columns:1fr}
+ .comparison-grid{gap:10px;padding:16px 12px}
+ .comparison-label{min-height:68px;padding-inline:4px}
+ .comparison-media video{height:clamp(200px,68vw,340px)}
+ .sim-real-comparison .comparison-copy{padding:20px}
+ .comparison-copy .tags{margin-top:18px}
+}
